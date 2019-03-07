@@ -23,7 +23,7 @@ a:active { color:#000000; } /* selected */
 
 h1 {
   font-size: 32px;
-  line-height: 2;
+  line-height: 1.5;
   font-weight: bold;
 }
 
@@ -35,6 +35,10 @@ figcaption {
   font-size: 10px;
   text-align: left;
 }
+p {
+  line-height: 1.25;   /* within paragraph */
+  margin-bottom: 20px; /* between paragraphs */
+  }
 .logo {
   margin: 20px;
   width: 100px;
@@ -68,7 +72,7 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .container {
